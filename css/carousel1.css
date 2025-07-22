@@ -1,0 +1,40 @@
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+	color: #f1f1f1;
+}
+
+.carousel img {
+  height: 600px;
+	width: 70%;
+  object-fit: cover;
+	 display: block;
+  margin: 0 auto; 
+}
+
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+	background-color: rgba(255, 255, 255, 0.5);
+
+}
+/*Χρώμα στα κουμπιά carousel*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6); /* σκούρο φόντο */
+  background-size: 100% 100%;
+  border-radius: 50%; /* κυκλικό */
+  width: 40px;
+  height: 40px;
+}

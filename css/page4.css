@@ -1,0 +1,59 @@
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; /* για να ευθυγραμμίζονται κάθετα */
+  height: auto;
+  width: 100%;
+  }
+ 
+
+li {
+  display: inline; 
+}
+
+li a {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: rgb(239, 86, 138); 
+  border-radius: 5px;
+}
+/* Container between menu line */
+.menu-container {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding: 4px 0;       /* πιο στενό γύρω από το μενού */
+  margin-top: -30px;    /* φέρνει το menu πιο κοντά στην επικεφαλίδα */
+}
+.logo-container img {
+  max-width: 200px; /* Μικρότερο μέγεθος εικόνας */
+  height: auto;
+  display: block;
+  margin: 0 auto 50px auto; /* Κέντρο και κενό κάτω */
+}
+.logo-container h1 {
+  margin-top: 15px; /* Κενό πάνω από το h1 για να μην κολλάει στο logo */
+  margin-bottom: 60px; /* Κενό κάτω από το h1 για να μην κολλάει στο μενού */
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+	text-align: center;
+}
+.logo-container {
+  background-color: rgb(54, 211, 225);  /* σκούρο μπλε φόντο */
+  padding: 20px 0;                     /* πάνω-κάτω padding */
+  text-align: center;                  /* κεντράρισμα περιεχομένου */
+  border-radius: 10px;                 /*  στρογγυλεμένες γωνίες */
+  margin-bottom: 30px;                 /* κενό κάτω από το container, */
+}
